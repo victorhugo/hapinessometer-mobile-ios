@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SVProgressHUD
 
 class LoginViewController: UIViewController {
     
@@ -20,8 +21,12 @@ class LoginViewController: UIViewController {
             return
         }
         print(user + pass)
-        
-        self.performSegueWithIdentifier("home", sender: self)
-        
+        if (!user.isEmpty && !pass.isEmpty) {
+            //TODO:validate log in
+            self.performSegueWithIdentifier("home", sender: self)
+        } else {
+            SVProgressHUD.setMinimumDismissTimeInterval(1.0)
+            SVProgressHUD.showErrorWithStatus("Username/Password not valid")
+        }
     }
 }
