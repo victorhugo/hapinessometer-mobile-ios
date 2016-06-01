@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C01CB6E1CFF6F1B0051E7F7 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C01CB681CFF6F1B0051E7F7 /* background.png */; };
+		1C01CB6F1CFF6F1B0051E7F7 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C01CB691CFF6F1B0051E7F7 /* background@2x.png */; };
+		1C01CB701CFF6F1B0051E7F7 /* happy.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C01CB6A1CFF6F1B0051E7F7 /* happy.png */; };
+		1C01CB711CFF6F1B0051E7F7 /* happy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C01CB6B1CFF6F1B0051E7F7 /* happy@2x.png */; };
+		1C01CB721CFF6F1B0051E7F7 /* sad.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C01CB6C1CFF6F1B0051E7F7 /* sad.png */; };
+		1C01CB731CFF6F1B0051E7F7 /* sad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C01CB6D1CFF6F1B0051E7F7 /* sad@2x.png */; };
 		1C01D6791CFE71F8000E20C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C01D6781CFE71F8000E20C9 /* AppDelegate.swift */; };
 		1C01D67B1CFE71F8000E20C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C01D67A1CFE71F8000E20C9 /* ViewController.swift */; };
 		1C01D67E1CFE71F8000E20C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C01D67C1CFE71F8000E20C9 /* Main.storyboard */; };
@@ -27,6 +33,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C01CB681CFF6F1B0051E7F7 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		1C01CB691CFF6F1B0051E7F7 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		1C01CB6A1CFF6F1B0051E7F7 /* happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happy.png; sourceTree = "<group>"; };
+		1C01CB6B1CFF6F1B0051E7F7 /* happy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "happy@2x.png"; sourceTree = "<group>"; };
+		1C01CB6C1CFF6F1B0051E7F7 /* sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sad.png; sourceTree = "<group>"; };
+		1C01CB6D1CFF6F1B0051E7F7 /* sad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sad@2x.png"; sourceTree = "<group>"; };
 		1C01D6751CFE71F8000E20C9 /* Happy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Happy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C01D6781CFE71F8000E20C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C01D67A1CFE71F8000E20C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +121,12 @@
 		1C01D68F1CFEAB6E000E20C9 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				1C01CB681CFF6F1B0051E7F7 /* background.png */,
+				1C01CB691CFF6F1B0051E7F7 /* background@2x.png */,
+				1C01CB6A1CFF6F1B0051E7F7 /* happy.png */,
+				1C01CB6B1CFF6F1B0051E7F7 /* happy@2x.png */,
+				1C01CB6C1CFF6F1B0051E7F7 /* sad.png */,
+				1C01CB6D1CFF6F1B0051E7F7 /* sad@2x.png */,
 				1C01D69C1CFEB804000E20C9 /* happy-baby.png */,
 				1C01D69A1CFEB746000E20C9 /* angry-baby-wallpaper.jpg */,
 				1C01D6981CFEB61E000E20C9 /* girl-happy.jpg */,
@@ -200,6 +218,7 @@
 			files = (
 				1C01D69D1CFEB804000E20C9 /* happy-baby.png in Resources */,
 				1C01D69B1CFEB746000E20C9 /* angry-baby-wallpaper.jpg in Resources */,
+				1C01CB701CFF6F1B0051E7F7 /* happy.png in Resources */,
 				1C01D6971CFEB4D8000E20C9 /* bakground@2x.png in Resources */,
 				1C01D6831CFE71F8000E20C9 /* LaunchScreen.storyboard in Resources */,
 				1C01D6991CFEB61E000E20C9 /* girl-happy.jpg in Resources */,
@@ -207,7 +226,12 @@
 				1C01D6931CFEAF79000E20C9 /* Arrows@2x.png in Resources */,
 				1C01D6961CFEB4D8000E20C9 /* bakground.png in Resources */,
 				1C01D67E1CFE71F8000E20C9 /* Main.storyboard in Resources */,
+				1C01CB6E1CFF6F1B0051E7F7 /* background.png in Resources */,
+				1C01CB6F1CFF6F1B0051E7F7 /* background@2x.png in Resources */,
+				1C01CB721CFF6F1B0051E7F7 /* sad.png in Resources */,
 				1C01D6911CFEAB75000E20C9 /* Arrows.png in Resources */,
+				1C01CB711CFF6F1B0051E7F7 /* happy@2x.png in Resources */,
+				1C01CB731CFF6F1B0051E7F7 /* sad@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
