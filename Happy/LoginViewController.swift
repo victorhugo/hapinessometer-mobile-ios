@@ -13,6 +13,10 @@ class LoginViewController: UIViewController {
     
     @IBOutlet weak var usernameField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
+    
+    let service = APIRequestService()
+    
+    
     @IBAction func logInTapped(sender: AnyObject) {
         guard let user = usernameField.text else {
             return
@@ -20,13 +24,25 @@ class LoginViewController: UIViewController {
         guard let pass = passwordField.text else {
             return
         }
-        print(user + pass)
         if (!user.isEmpty && !pass.isEmpty) {
             //TODO:validate log in
-            self.performSegueWithIdentifier("home", sender: self)
+            SVProgressHUD.show()
+            service.postRequest("v1/authenticate", params: ["email":user, "password":pass]){(data, error) in
+                if let JSON = data{
+                    SVProgressHUD.dismiss()
+                    self.performSegueWithIdentifier("home", sender: self)
+                }
+                if error != nil{
+                    self.invalidLogin()
+                }
+            }
         } else {
-            SVProgressHUD.setMinimumDismissTimeInterval(1.0)
-            SVProgressHUD.showErrorWithStatus("Username/Password not valid")
+            self.invalidLogin()
         }
+    }
+    
+    func invalidLogin() {
+        SVProgressHUD.setMinimumDismissTimeInterval(3.0)
+        SVProgressHUD.showErrorWithStatus("Username/Password not valid")
     }
 }
