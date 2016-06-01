@@ -9,4 +9,3 @@ pod 'SVProgressHUD', '~> 2.0'
 pod 'Alamofire', '~> 3.4'
 
 end
-

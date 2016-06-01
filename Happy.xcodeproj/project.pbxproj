@@ -21,6 +21,8 @@
 		1C01D6991CFEB61E000E20C9 /* girl-happy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C01D6981CFEB61E000E20C9 /* girl-happy.jpg */; };
 		1C01D69B1CFEB746000E20C9 /* angry-baby-wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C01D69A1CFEB746000E20C9 /* angry-baby-wallpaper.jpg */; };
 		1C01D69D1CFEB804000E20C9 /* happy-baby.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C01D69C1CFEB804000E20C9 /* happy-baby.png */; };
+		2F4FA29F1CFF5687007AF07A /* APIRequestService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4FA29E1CFF5687007AF07A /* APIRequestService.swift */; };
+		2F4FA2A31CFF59D3007AF07A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4FA2A21CFF59D3007AF07A /* LoginViewController.swift */; };
 		B098BBC299EC75537EA5932E /* Pods_Happy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93C194ECF903ADDF00F15F8B /* Pods_Happy.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +43,8 @@
 		1C01D6981CFEB61E000E20C9 /* girl-happy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "girl-happy.jpg"; sourceTree = "<group>"; };
 		1C01D69A1CFEB746000E20C9 /* angry-baby-wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "angry-baby-wallpaper.jpg"; sourceTree = "<group>"; };
 		1C01D69C1CFEB804000E20C9 /* happy-baby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "happy-baby.png"; sourceTree = "<group>"; };
+		2F4FA29E1CFF5687007AF07A /* APIRequestService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequestService.swift; sourceTree = "<group>"; };
+		2F4FA2A21CFF59D3007AF07A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3BD138AFF5A2DAA24BB88568 /* Pods-Happy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Happy.release.xcconfig"; path = "Pods/Target Support Files/Pods-Happy/Pods-Happy.release.xcconfig"; sourceTree = "<group>"; };
 		41113787B273A85B8212A595 /* Pods-Happy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Happy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Happy/Pods-Happy.debug.xcconfig"; sourceTree = "<group>"; };
 		93C194ECF903ADDF00F15F8B /* Pods_Happy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Happy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +100,8 @@
 			children = (
 				1C01D68B1CFE779B000E20C9 /* HappyCell.swift */,
 				1C01D68D1CFE96E3000E20C9 /* HomeViewController.swift */,
+				2F4FA29E1CFF5687007AF07A /* APIRequestService.swift */,
+				2F4FA2A21CFF59D3007AF07A /* LoginViewController.swift */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -260,9 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F4FA2A31CFF59D3007AF07A /* LoginViewController.swift in Sources */,
 				1C01D68C1CFE779B000E20C9 /* HappyCell.swift in Sources */,
 				1C01D67B1CFE71F8000E20C9 /* ViewController.swift in Sources */,
 				1C01D6791CFE71F8000E20C9 /* AppDelegate.swift in Sources */,
+				2F4FA29F1CFF5687007AF07A /* APIRequestService.swift in Sources */,
 				1C01D68E1CFE96E3000E20C9 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
